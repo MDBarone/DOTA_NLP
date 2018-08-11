@@ -42,52 +42,62 @@ class arayi(object):
         self.cur.execute("DROP DATABASE %s;" % dbName)
 
     def createTable(self,schemaList):
-        # PANDAS SOLUTION.  REFACTOR CODE
-        # from sqlalchemy import create_engine
-        # import pandas as pd
-        #
-        # df = pd.read_csv('/PATH/TO/FILE.csv', sep='|')
-        # # Optional, set your indexes to get Primary Keys
-        # df = df.set_index(['COL A', 'COL B'])
-        #
-        # engine = create_engine('mysql://user:pass@host/db', echo=False)
-
-        df.to_sql(table_name, engine, index=False)
-        ### SCHEMA LIST IS
         for table in schemaList:
-            header,variables,types=dota.getDBInfo(table)
+            tableName,variables,types=dota.getDBInfo(table)
             varSchema=""
             pk=variables[0]
             for idx, value in enumerate(variables):
+
+                ### EXCEPTION BECAUSE MYSQL RESTRICTS USING KEY AS A KEYNAME
                 if value == "key":
                     value="theKey"
+
                 if types[idx] == str:
                     varSchema+=", \n %s %s" % (value, "VARCHAR(255)")
                 else:
                     varSchema+=", \n %s %s" % (value, "FLOAT")
-
-            createTable="CREATE TABLE DOTA.%s (%s);" % (header, varSchema.lstrip(','))
-            print(createTable)
+            varSchema+=", \n PRIMARY KEY (%s)" % variables[0]
+            createTable="CREATE TABLE DOTA.%s (%s);" % (tableName, varSchema.lstrip(','))
+            # print(createTable)
             dB = dota.dbConnect()
             self.cur = dB.cursor()
             self.cur.execute(createTable)
-            print("Create table: %s" % header)
+            print("Create table: %s" % tableName)
+            uploadCommand="LOAD DATA LOCAL INFILE '%s' INTO TABLE DOTA.%s FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 ROWS" % (table, tableName)
+            self.cur.execute(uploadCommand)
+            dB.commit()
+
+        ### THIS IS A MORE ELEGANT SOLUTION I COULDNT GET TO WORK
+        # import pandas as pd
+        # from sqlalchemy import create_engine
+        # for table in schemaList:
+        #     df = pd.read_csv(table, sep=',')
+        #     pk = list(df)[0]
+        #     tableName = table.replace(".csv","").split("/")[1]
+        #     df = df.set_index(pk)
+        #     # engine = create_engine('mysql://user:pass@host/db', echo=False)
+        #     engine = create_engine('mysql://root:root@localhost/DOTA', echo=False)
+        #     try:
+        #         df.to_sql(tableName, engine, index=False)
+        #     except EnvironmentError as e:
+        #         dota.deleteDB("DOTA")
+        #         print("CREATE Error %s:", e)
+        #     break
+
         pass
 
 
-
 dota = arayi()
+
+##DB INITAILIZATION
 try:
     dota.initDB("DOTA")
-
     ### GETS LIST OF TABLES FOR IMPORT
     dotabaseList=glob.glob("data/*.csv")
-    # print(dotabaseList)
+    # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
     dota.createTable(dotabaseList)
-
-
-    print("Success")
-    dota.deleteDB("DOTA")
+    # dota.deleteDB("DOTA")
+    print("DATA IMPORT SUCCESS")
 except EnvironmentError as e:
     dota.deleteDB("DOTA")
-    print("Error %s:", e)
+    print("DATA IMPORT ERROR: %s", e)
