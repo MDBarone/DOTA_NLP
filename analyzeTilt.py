@@ -4,7 +4,7 @@ import mysql.connector
 import pandas as pd
 from langdetect import detect
 
-class melody(object):
+class clyde(object):
 
     def dbConnect(self):
         cnx = mysql.connector.connect(user='root', password='root',database='DOTA')
@@ -16,7 +16,7 @@ class melody(object):
         return self.df
 
 
-tilt = melody()
+tilt = clyde()
 
 
 ### ENGLISH ANALYSIS TEST
@@ -68,13 +68,16 @@ tilt = melody()
 # print(langDict)
 # json.dump(langDict,open('data/summaries/languageSummary.json','w'))
 
-import matplotlib
-matplotlib.use('agg')
-import matplotlib.pyplot as plt
+# import matplotlib
+# matplotlib.use('agg')
+# import matplotlib.pyplot as plt
+#
+# langLog = json.load(open("data/summaries/languageSummary.json","r"))
+#
+# plt.bar(range(len(langLog)), list(langLog.values()), align='center')
+# plt.xticks(range(len(langLog)), list(langLog.keys()))
+# # matplotlib.axis.XAxis(axes,labelpad=20)
+# plt.savefig("data/images/matplotlib.png")
 
-langLog = json.load(open("data/summaries/languageSummary.json","r"))
 
-plt.bar(range(len(langLog)), list(langLog.values()), align='center')
-plt.xticks(range(len(langLog)), list(langLog.keys()))
-# matplotlib.axis.XAxis(axes,labelpad=20)
-plt.savefig("data/images/matplotlib.png")
+#### CORRELATE AVG SENTIMENT TO WIN PERCENTAGE (FIGURE OUT A WAY TO QUANTIFY THAT)

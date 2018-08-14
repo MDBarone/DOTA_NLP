@@ -56,13 +56,14 @@ class arayi(object):
                     varSchema+=", \n %s %s" % (value, "VARCHAR(255)")
                 else:
                     varSchema+=", \n %s %s" % (value, "FLOAT")
-            varSchema+=", \n PRIMARY KEY (%s)" % variables[0]
+            # varSchema+=", \n PRIMARY KEY (%s)" % variables[0]
             createTable="CREATE TABLE DOTA.%s (%s);" % (tableName, varSchema.lstrip(','))
             # print(createTable)
             dB = dota.dbConnect()
             self.cur = dB.cursor()
             self.cur.execute(createTable)
             print("Create table: %s" % tableName)
+            print(createTable)
             uploadCommand="LOAD DATA LOCAL INFILE '%s' INTO TABLE DOTA.%s FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 ROWS" % (table, tableName)
             self.cur.execute(uploadCommand)
             dB.commit()
@@ -87,17 +88,17 @@ class arayi(object):
         pass
 
 
-dota = arayi()
+# dota = arayi()
 
 ##DB INITAILIZATION
-try:
-    dota.initDB("DOTA")
-    ### GETS LIST OF TABLES FOR IMPORT
-    dotabaseList=glob.glob("data/*.csv")
-    # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
-    dota.createTable(dotabaseList)
-    # dota.deleteDB("DOTA")
-    print("DATA IMPORT SUCCESS")
-except EnvironmentError as e:
-    dota.deleteDB("DOTA")
-    print("DATA IMPORT ERROR: %s", e)
+# try:
+#     # dota.initDB("DOTA")
+#     ### GETS LIST OF TABLES FOR IMPORT
+#     dotabaseList=glob.glob("data/*atch.csv")
+#     # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
+#     dota.createTable(dotabaseList)
+#     # dota.deleteDB("DOTA")
+#     print("DATA IMPORT SUCCESS")
+# except EnvironmentError as e:
+#     dota.deleteDB("DOTA")
+#     print("DATA IMPORT ERROR: %s", e)

@@ -1,2 +1,3 @@
 musei_keys.env
 data/
+__pycache__/
