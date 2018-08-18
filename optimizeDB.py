@@ -4,6 +4,7 @@ import pandas as pd
 from langdetect import detect
 from importDotaBase import arayi
 from itertools import combinations
+from nltk.sentiment.vader import SentimentIntensityAnalyzer as SIA
 
 dota = arayi()
 
@@ -28,13 +29,41 @@ class renoa(object):
         pass
 
     # Add player primary language column
-    def assignLang(self):
-        pass
+    def assignLang(self,langDict={}):
+        dB = dota.dbConnect()
+        self.cur = dB.cursor()
+        self.cur.execute("player_name, message FROM DOTA.chat")
+        data= self.cur.fetchall()
+        for row in data:
+            if row[0] not in langDict:
+                try:
+                    landDict[row[0]]=detect(row[1])
+                except:
+                    continue
+        addColumn="ALTER TABLE DOTA.chat ADD COLUMN language VARCHAR(255)"
+        try:
+            self.cur.execute(addColumn)
+        except:
+            self.cur.execute("ALTER TABLE DOTA.chat DROP COLUMN language")
+        dB.commit()
+        self.cur.close()
+        # return langDict
 
     # Add average player chat sentiment
-    def avgUserSent(self):
+    def assignAvgUserSent(self,sentDict={}):
+        sid = SIA()
+        dB = dota.dbConnect()
+        self.cur = dB.cursor()
+        self.cur.execute("player_name, message FROM DOTA.chat")
+        data= self.cur.fetchall()
+        for row in data:
+            if row[0] not in sentDict:
+                sentDict[row[0]]=[sid.polarity_scores(sentence)]
+            else:
+                sentDict[row[0]].append(sid.polarity_scores(sentence))
         pass
 
 optiDB = renoa()
 
-optiDB.createFKs()
+# optiDB.createFKs() # Might not work
+# optiDB.assignLang() # Run next
