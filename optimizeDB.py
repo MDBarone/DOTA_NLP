@@ -37,7 +37,7 @@ class renoa(object):
         for row in data:
             if row[0] not in langDict:
                 try:
-                    landDict[row[0]]=detect(row[1])
+                    langDict[row[0]]=detect(row[1])
                 except:
                     continue
         addColumn="ALTER TABLE DOTA.chat ADD COLUMN language VARCHAR(255)"
@@ -46,6 +46,7 @@ class renoa(object):
         except:
             self.cur.execute("ALTER TABLE DOTA.chat DROP COLUMN language")
         dB.commit()
+        # assLang="UPDATE TABLE chat SET language = '%s' "
         self.cur.close()
         # return langDict
 
@@ -61,9 +62,10 @@ class renoa(object):
                 sentDict[row[0]]=[sid.polarity_scores(sentence)]
             else:
                 sentDict[row[0]].append(sid.polarity_scores(sentence))
+
         pass
 
 optiDB = renoa()
 
 # optiDB.createFKs() # Might not work
-# optiDB.assignLang() # Run next
+# optiDB.assignLang() # Run next NEEDS WORK
