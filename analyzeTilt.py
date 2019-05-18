@@ -7,7 +7,7 @@ from langdetect import detect
 class clyde(object):
 
     def dbConnect(self):
-        cnx = mysql.connector.connect(user='root', password='root',database='DOTA')
+        cnx = mysql.connector.connect(user='root', password='fantasy3',database='DOTA')
         return cnx
 
     def dbQuery(self, cmd):

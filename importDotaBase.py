@@ -5,7 +5,7 @@ import mysql.connector
 class arayi(object):
 
     def dbConnect(self):
-        cnx = mysql.connector.connect(user='root', password='root')
+        cnx = mysql.connector.connect(user='root', password='fantasy3',allow_local_infile=True)
         return cnx
 
     ### EXTRACTS DB INFORMATION FOR IMPORT INTO SQL
@@ -65,6 +65,7 @@ class arayi(object):
             print("Create table: %s" % tableName)
             print(createTable)
             uploadCommand="LOAD DATA LOCAL INFILE '%s' INTO TABLE DOTA.%s FIELDS TERMINATED BY ',' ENCLOSED BY '\"' LINES TERMINATED BY '\n' IGNORE 1 ROWS" % (table, tableName)
+            print(uploadCommand)
             self.cur.execute(uploadCommand)
             dB.commit()
 
@@ -88,17 +89,18 @@ class arayi(object):
         pass
 
 
-# dota = arayi()
-
+dota = arayi()
+dota.deleteDB("DOTA")
 ##DB INITAILIZATION
-# try:
-#     # dota.initDB("DOTA")
-#     ### GETS LIST OF TABLES FOR IMPORT
-#     dotabaseList=glob.glob("data/*atch.csv")
-#     # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
-#     dota.createTable(dotabaseList)
-#     # dota.deleteDB("DOTA")
-#     print("DATA IMPORT SUCCESS")
-# except EnvironmentError as e:
-#     dota.deleteDB("DOTA")
-#     print("DATA IMPORT ERROR: %s", e)
+try:
+    dota.initDB("DOTA")
+    ### GETS LIST OF TABLES FOR IMPORT
+    dotabaseList=glob.glob("data/*.csv")
+    # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
+    # print(dotabaseList)
+    dota.createTable(dotabaseList)
+    # dota.deleteDB("DOTA")
+    print("DATA IMPORT SUCCESS")
+except EnvironmentError as e:
+    dota.deleteDB("DOTA")
+    print("DATA IMPORT ERROR: %s", e)
