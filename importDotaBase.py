@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 import glob, csv, ast, sys
 import mysql.connector
+import config # config.py file contains all passwords and credentials
 
 class arayi(object):
 
     def dbConnect(self):
-        cnx = mysql.connector.connect(user='root', password='fantasy3',allow_local_infile=True)
+        cnx = mysql.connector.connect(user=config.MYSQL_USER, password=config.MYSQL_PASSWORD,allow_local_infile=True)
         return cnx
 
     ### EXTRACTS DB INFORMATION FOR IMPORT INTO SQL
@@ -33,21 +34,18 @@ class arayi(object):
         self.cur.execute("CREATE DATABASE %s;" % dbName)
         self.cur.close()
 
-
-
     def deleteDB(self,dbName):
         dB = dota.dbConnect()
         print("DROP DB")
         self.cur = dB.cursor()
         self.cur.execute("DROP DATABASE %s;" % dbName)
 
-    def createTable(self,schemaList):
+    def importTable(self,schemaList):
         for table in schemaList:
             tableName,variables,types=dota.getDBInfo(table)
             varSchema=""
             pk=variables[0]
             for idx, value in enumerate(variables):
-
                 ### EXCEPTION BECAUSE MYSQL RESTRICTS USING KEY AS A KEYNAME
                 if value == "key":
                     value="theKey"
@@ -90,17 +88,18 @@ class arayi(object):
 
 
 dota = arayi()
-dota.deleteDB("DOTA")
-##DB INITAILIZATION
-try:
-    dota.initDB("DOTA")
-    ### GETS LIST OF TABLES FOR IMPORT
-    dotabaseList=glob.glob("data/*.csv")
-    # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
-    # print(dotabaseList)
-    dota.createTable(dotabaseList)
-    # dota.deleteDB("DOTA")
-    print("DATA IMPORT SUCCESS")
-except EnvironmentError as e:
-    dota.deleteDB("DOTA")
-    print("DATA IMPORT ERROR: %s", e)
+dota.dbConnect()
+# dota.deleteDB("DOTA")
+# ##DB INITAILIZATION
+# try:
+#     dota.initDB("DOTA")
+#     ### GETS LIST OF TABLES FOR IMPORT
+#     dotabaseList=glob.glob("data/*.csv")
+#     # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
+#     # print(dotabaseList)
+#     dota.impoortTable(dotabaseList)
+#     # dota.deleteDB("DOTA")
+#     print("DATA IMPORT SUCCESS")
+# except EnvironmentError as e:
+#     dota.deleteDB("DOTA")
+#     print("DATA IMPORT ERROR: %s", e)

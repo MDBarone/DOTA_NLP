@@ -23,7 +23,7 @@ class musei(object):
                         # print msg["user"],msg["ts"],msg["text"]
 
             except:
-                print "Unexpected error:",sys.exc_info()[4]
+                print("Unexpected error:",sys.exc_info()[4])
 
     def createMatchToPlayerDict(self,csvPath):
         df=pd.read_csv(csvPath)
@@ -31,17 +31,18 @@ class musei(object):
         return matchPlayerDict
 
     def getAcctToPlyrIds(self,matchIds):
-        playerDf=pd.read_csv("/home/saradit/musei/data/dota2/players.csv")
+        playerDf=pd.read_csv("/Users/arayi/DOTA-Science/players.csv")
         playerDf=playerDf.replace({"player_slot":{128:5,129:6,130:7,131:8,132:9}})
+        print(playerDf)
         userId={}
         for match in matchIds:
             matchDf=playerDf.loc[playerDf["match_id"] == match,["account_id","player_slot"]]
             matchDf=matchDf.loc[playerDf["account_id"] != 0]
-            userId[match]=matchDf.set_index("player_slot").to_dict()["account_id"]       
+            userId[match]=matchDf.set_index("player_slot").to_dict()["account_id"]
         return userId
 
     def getChatsFromAcct(self,matchDict):
-        archiveDf=pd.read_csv("/home/saradit/musei/data/dota2/chat.csv")
+        archiveDf=pd.read_csv("/Users/arayi/DOTA-Science/chat.csv")
         chatDict={}
         for match in matchDict:
             chatDf=archiveDf.loc[archiveDf["match_id"] == match,["time","slot","unit","key"]]
@@ -57,7 +58,8 @@ class musei(object):
 
 
 
-m=musei()
-matchPlyrDict=m.getAcctToPlyrIds(range(0,50000))
-chatDict=m.getChatsFromAcct(matchPlyrDict)
+m = musei()
+matchPlyrDict = m.getAcctToPlyrIds(range(0,50000))
+print(matchPlyrDict)
+chatDict = m.getChatsFromAcct(matchPlyrDict)
 json.dump(chatDict,open("chatData.json","w"))
