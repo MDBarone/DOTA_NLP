@@ -6,8 +6,27 @@ import config # config.py file contains all passwords and credentials
 class arayi(object):
 
     def dbConnect(self):
-        cnx = mysql.connector.connect(user=config.MYSQL_USER, password=config.MYSQL_PASSWORD,allow_local_infile=True)
+        cnx = mysql.connector.connect(user=config.MYSQL_USER, password=config.MYSQL_PASSWORD,allow_local_infile=True,database="DOTA")
         return cnx
+
+    def dbQuery(self,query):
+        self.dB = dota.dbConnect()
+        self.cur = self.dB.cursor()
+        self.cur.execute(query)
+        try:
+            self.data = self.cur.fetchall()
+        except:
+            self.data = "Completed query with no data: %s"
+        self.cur.close()
+        return self.data
+
+    def dbExecute(self,command):
+        self.dB = dota.dbConnect()
+        self.cur = self.dB.cursor()
+        self.cur.execute(command)
+        self.dB.commit()
+        self.cur.close()
+
 
     ### EXTRACTS DB INFORMATION FOR IMPORT INTO SQL
     def getDBInfo(self,path):
@@ -67,28 +86,74 @@ class arayi(object):
             self.cur.execute(uploadCommand)
             dB.commit()
 
-        ### THIS IS A MORE ELEGANT SOLUTION I COULDNT GET TO WORK
-        # import pandas as pd
-        # from sqlalchemy import create_engine
-        # for table in schemaList:
-        #     df = pd.read_csv(table, sep=',')
-        #     pk = list(df)[0]
-        #     tableName = table.replace(".csv","").split("/")[1]
-        #     df = df.set_index(pk)
-        #     # engine = create_engine('mysql://user:pass@host/db', echo=False)
-        #     engine = create_engine('mysql://root:root@localhost/DOTA', echo=False)
-        #     try:
-        #         df.to_sql(tableName, engine, index=False)
-        #     except EnvironmentError as e:
-        #         dota.deleteDB("DOTA")
-        #         print("CREATE Error %s:", e)
-        #     break
+    def addColumn(self,table,column,type):
+        dota.dbQuery("ALTER TABLE DOTA.%s ADD COLUMN %s %s" % (table,column,type))
+        print("Column added")
 
-        pass
+    ## Usually better to use updateTableByID
+    # SOME
+    def updateTableByName(self, table, column, data):
+        self.dB = dota.dbConnect()
+        self.cur = self.dB.cursor()
+        assLang = 'UPDATE DOTA.%s SET %s = CASE ' % (table,column)
 
+        # I need to make two updates because some player names have single or double quotes
+        playerList1 = []
+        playerList2 = []
+        whenThen1 = ''
+        whenThen2 = ''
+
+        for unit in data:
+            try:
+                if '"' in unit:
+                    whenThen1 += "WHEN unit = '%s' THEN '%s' " % (unit, data[unit])
+                    playerList1.append(unit)
+                else:
+                    whenThen2 += 'WHEN unit = "%s" THEN "%s" ' % (unit, data[unit])
+                    playerList2.append(unit)
+            except Exception as e:
+                print(e)
+                continue
+        update1 = assLang + whenThen1 + " ELSE %s END WHERE unit in ('%s')" % (column,"','".join(map(str,playerList1)))
+        update2 = assLang + whenThen2 + ' ELSE %s END WHERE unit in ("%s")' % (column,'","'.join(map(str,playerList2)))
+        try:
+            self.cur.execute(update1)
+            print("Update 1 Success")
+        except Exception as e:
+            print("Update 1 Fail: %s" % e)
+            # print(update1)
+        try:
+            self.cur.execute(update2)
+            print("Success 2")
+        except Exception as e:
+            print("Update 2 Fail: %s" % e)
+
+        self.dB.commit()
+        self.cur.close()
+
+    def updateTableByID(self, table, column, data):
+        # Once player table is built, player_ids will be easier to use
+        assLang = 'UPDATE DOTA.%s SET %s = CASE ' % (table,column)
+
+        playerList = []
+        whenThen = ''
+
+        for theId in data:
+            whenThen += "WHEN message_id = %s THEN %s " % (theId, data[theId])
+            playerList.append(theId)
+        update = assLang + whenThen + " ELSE %s END WHERE message_id in (%s)" % (column,",".join(map(str,playerList)))
+        dB = dota.dbConnect()
+
+        dota.dbQuery(update)
+        dB.commit()
+        # dB = dota.dbConnect()
+        # self.cur = dB.cursor()
+        # self.cur.execute(update)
+        # dB.commit()
+        # self.cur.close()
 
 dota = arayi()
-dota.dbConnect()
+
 # dota.deleteDB("DOTA")
 # ##DB INITAILIZATION
 # try:
