@@ -6,7 +6,7 @@ import config # config.py file contains all passwords and credentials
 class arayi(object):
 
     def dbConnect(self):
-        cnx = mysql.connector.connect(user=config.MYSQL_USER, password=config.MYSQL_PASSWORD,allow_local_infile=True,database="DOTA")
+        cnx = mysql.connector.connect(host='localhost',user=config.MYSQL_USER, password=config.MYSQL_PASSWORD,allow_local_infile=True,database="DOTA")
         return cnx
 
     def dbQuery(self,query):
@@ -71,6 +71,8 @@ class arayi(object):
 
                 if types[idx] == str:
                     varSchema+=", \n %s %s" % (value, "VARCHAR(255)")
+                elif types[idx] == bool:
+                    varSchema+=", \n %s %s" % (value, "ENUM('True','False')")
                 else:
                     varSchema+=", \n %s %s" % (value, "FLOAT")
             # varSchema+=", \n PRIMARY KEY (%s)" % variables[0]
@@ -154,17 +156,22 @@ class arayi(object):
 
 dota = arayi()
 
-# dota.deleteDB("DOTA")
-# ##DB INITAILIZATION
+
+
+# ###DB INITAILIZATION
 # try:
 #     dota.initDB("DOTA")
-#     ### GETS LIST OF TABLES FOR IMPORT
+#     # GETS LIST OF TABLES FOR IMPORT
 #     dotabaseList=glob.glob("data/*.csv")
+
 #     # CREATES TABLE SCHEMAS AND UPLOADS DATA FROM data/
 #     # print(dotabaseList)
-#     dota.impoortTable(dotabaseList)
-#     # dota.deleteDB("DOTA")
+#     dota.importTable(dotabaseList)
 #     print("DATA IMPORT SUCCESS")
 # except EnvironmentError as e:
 #     dota.deleteDB("DOTA")
 #     print("DATA IMPORT ERROR: %s", e)
+
+### INDIVIDUAL TABLE IMPORT
+# match_schema=glob.glob("data/match.csv")
+# dota.importTable(match_schema)

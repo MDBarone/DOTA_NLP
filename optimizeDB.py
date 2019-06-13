@@ -8,28 +8,40 @@ dota = arayi()
 
 class renoa(object):
 
+    def createIndexes(self):
+        # < 50 messages got replicated during the import/optimize.
+        data = dota.dbQuery("SELECT count(*) as c, message_id from DOTA.chat GROUP BY message_id ORDER BY c DESC LIMIT 100;")
+        data = [d[1] for d in data if d[0] > 1]
+        delQuery = "DELETE FROM chat WHERE message_id IN (%s)" % ",".join(map(str,data))
+        dota.dbExecute(delQuery)
+        # print(delQuery)
+
+        pks = [("chat","message_id")]
+        [dota.dbExecute("ALTER TABLE DOTA.%s ADD PRIMARY KEY (%s);" % (pk[0],pk[1])) for pk in pks]
+
+        indexes = [("chat","player_id"),("chat","match_id")]
+        [dota.dbExecute("CREATE INDEX idx_%s ON DOTA.%s(%s);" % (ind[1],ind[0],ind[1])) for ind in indexes]
+
     # Will create foreign keys for all tables with match ids dynamically
-    def createFKs(self):
-        from itertools import combinations
-        self.tables = dota.dbQuery("show tables in DOTA;")
-        self.tables = [table[0] for table in self.tables if table[0] not in ["cluster_regions","player_rating", "ability_ids", "ability_upgrades","item_ids","hero_names"]]
-        self.combo = combinations(self.tables,2)
-        for com in self.combo:
-            create = "ALTER TABLE DOTA.%s ADD FOREIGN KEY (match_id) REFERENCES DOTA.%s(match_id)" % (com[0], com[1])
-            dota.dBQuery(create)
-        dota.dbConnect().commit()
+    # NEEDS WORK
+    # def createFKs(self):
+    #     from itertools import combinations
+    #     self.tables = dota.dbQuery("show tables in DOTA;")
+    #     self.tables = [table[0] for table in self.tables if table[0] not in ["cluster_regions","player_rating", "ability_ids", "ability_upgrades","item_ids","hero_names"]]
+    #     self.combo = combinations(self.tables,2)
+    #     for com in self.combo:
+    #         create = "ALTER TABLE DOTA.%s ADD FOREIGN KEY (match_id) REFERENCES DOTA.%s(match_id)" % (com[0], com[1])
+    #         dota.dBQuery(create)
+    #     dota.dbConnect().commit()
 
 
     # Add player primary language column
     def assignLang(self, langDict = {}):
         from langdetect import detect
 
-        self.data = dota.dbQuery("SELECT unit, theKey FROM DOTA.chat")
-        # dota.addColumn("chat","language","VARCHAR(3)")
-
         self.msgIdRange = dota.dbQuery("SELECT MIN(message_id), MAX(message_id) FROM DOTA.chat WHERE language IS NULL")
         self.msgIdRange = range(self.msgIdRange[0][0],self.msgIdRange[0][1]+1,10000)
-        
+
         for idx, min in enumerate(self.msgIdRange):
             assLang = 'UPDATE DOTA.chat SET language = CASE '
             msgIdList = []
@@ -123,6 +135,10 @@ class renoa(object):
         dota.dbExecute(query)
         print("Columns added")
 
+        query = "CREATE TABLE chat_tmp AS SELECT c.*, p.player_id FROM DOTA.chat as c, DOTA.player as p WHERE c.unit = p.unit; DROP TABLE chat; ALTER TABLE chat_tmp RENAME TO chat;"
+        dota.dbExecute(query)
+        print("Player ID added to chat table.")
+
         query = "SELECT player_id, val_neu, val_neg, val_pos, val_compound FROM player"
         data = dota.dbQuery(query)
         convertDict = {}
@@ -138,11 +154,31 @@ class renoa(object):
         update = assLang + whenThen + " ELSE avg_valence END WHERE player_id in (%s)" % (",".join(map(str,idList)))
         dota.dbExecute(query)
 
+    def groupLang(self):
+        from langdetect import detect
+
+        self.data = dota.dbQuery("SELECT player_id, GROUP_CONCAT(chat.theKey SEPARATOR '.  ') FROM DOTA.chat GROUP BY chat.player_id")
+        assLang = 'UPDATE DOTA.player SET language = CASE '
+        idList = []
+        whenThen = ''
+
+        for row in self.data:
+            try:
+                lang = detect(row[1])
+                whenThen += "WHEN player_id = %s THEN '%s' " % (row[0], lang)
+                idList.append(row[0])
+            except Exception as e:
+                print("Error - %s: %s" % (e,row[1]))
+        update = assLang + whenThen + " ELSE language END WHERE player_id in (%s)" % (",".join(map(str,idList)))
+        dota.dbExecute(update)
+
 
 optiDB = renoa()
 
-# optiDB.createFKs() # Might not work
-optiDB.assignLang() # Run next NEEDS WORK
-# optiDB.assignSent()
-# optiDB.createPlayer()
-# optiDB.populatePlayer()
+# try:
+    # optiDB.groupLang()
+    # optiDB.assignSent()
+    # optiDB.createPlayer()
+    # optiDB.createIndexes()
+# except Error as e:
+    # print("Error: %s" % e)
