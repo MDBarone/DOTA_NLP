@@ -16,7 +16,7 @@ dota = arayi()
 
 query = "SELECT m.match_id, CASE WHEN c.slot <= 4 AND m.radiant_win = 'True' THEN 'win' ELSE 'lose' END AS team, count(*) as c, AVG(JSON_EXTRACT(c.valence, '$.pos')) as pos, AVG(JSON_EXTRACT(c.valence, '$.neg')) as neg, AVG(JSON_EXTRACT(c.valence, '$.neu')) as neu, AVG(JSON_EXTRACT(c.valence, '$.compound')) as comp FROM DOTA.match as m, DOTA.player as p, DOTA.chat as c WHERE c.player_id = p.player_id AND c.match_id = m.match_id AND p.language = 'en' GROUP BY m.match_id, team ORDER BY m.match_id, team"
 df = pd.read_sql(query, con=dota.dbConnect())
-df.to_csv("temp.csv")
+df.to_csv("data/temp.csv")
 
 # for row in data:
 #     match,team, val_neg, val_neu, val_pos, val_comp = row[1:6]
