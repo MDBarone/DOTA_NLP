@@ -4,3 +4,6 @@ config.py
 std.out
 err.err
 analysisNotebook.ipynb
+deprecatedFunctions.py
+dota2demo.py
+slack.py
