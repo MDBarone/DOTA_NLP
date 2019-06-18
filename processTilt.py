@@ -3,20 +3,18 @@ import glob, csv, sys, json
 import numpy as np
 import mysql.connector
 import pandas as pd
-from importDotaBase import arayi
+from importData import arayi
 
 dota = arayi()
 
-
-
-# query = "SELECT m.match_id, CASE WHEN c.slot <= 4 AND m.radiant_win = 'True' THEN 'win' ELSE 'lose' END AS team, count(*) as c, AVG(p.val_neg), AVG(p.val_neu), AVG(p.val_pos), AVG(p.val_compound) FROM DOTA.match as m, DOTA.player as p, DOTA.chat as c WHERE c.player_id = p.player_id AND c.match_id = m.match_id AND p.language = 'en' GROUP BY m.match_id, team ORDER BY m.match_id, team"
+# query = "SELECT m.match_id, CASE WHEN c.slot <= 4 AND m.radiant_win = 'True' THEN 'win' ELSE 'lose' END AS team, count(*) theCount, AVG(JSON_EXTRACT(c.valence, '$.pos')) as pos, AVG(JSON_EXTRACT(c.valence, '$.neg')) as neg, AVG(JSON_EXTRACT(c.valence, '$.neu')) as neu, AVG(JSON_EXTRACT(c.valence, '$.compound')) as comp FROM DOTA.match as m, DOTA.player as p, DOTA.chat as c WHERE c.player_id = p.player_id AND c.match_id = m.match_id AND p.language = 'en' GROUP BY m.match_id, team ORDER BY m.match_id, team"
 # df = pd.read_sql(query, con=dota.dbConnect())
-# df.to_csv("temp.csv")
+# df.to_csv("data/temp.csv")
 
-
-query = "SELECT m.match_id, CASE WHEN c.slot <= 4 AND m.radiant_win = 'True' THEN 'win' ELSE 'lose' END AS team, count(*) as c, AVG(JSON_EXTRACT(c.valence, '$.pos')) as pos, AVG(JSON_EXTRACT(c.valence, '$.neg')) as neg, AVG(JSON_EXTRACT(c.valence, '$.neu')) as neu, AVG(JSON_EXTRACT(c.valence, '$.compound')) as comp FROM DOTA.match as m, DOTA.player as p, DOTA.chat as c WHERE c.player_id = p.player_id AND c.match_id = m.match_id AND p.language = 'en' GROUP BY m.match_id, team ORDER BY m.match_id, team"
+query = "SELECT CASE WHEN c.slot <= 4 AND m.radiant_win = 'True' THEN 'win' ELSE 'lose' END AS team, GROUP_CONCAT(c.theKey SEPARATOR ' ') as chatLog FROM %s.chat as c, %s.match as m, %s.player as p WHERE c.player_id = p.player_id AND c.match_id = m.match_id AND p.language = 'en' GROUP BY team" % (config.MYSQL_DATABASE,config.MYSQL_DATABASE,config.MYSQL_DATABASE)
 df = pd.read_sql(query, con=dota.dbConnect())
 df.to_csv("data/temp.csv")
+
 
 # for row in data:
 #     match,team, val_neg, val_neu, val_pos, val_comp = row[1:6]
