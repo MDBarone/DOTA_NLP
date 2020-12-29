@@ -1,0 +1,176 @@
+[2020-12-28 13:54:57,302] {scheduler_job.py:181} INFO - Started process (PID=15039) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:54:57,303] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:54:57,304] {logging_mixin.py:103} INFO - [2020-12-28 13:54:57,304] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:54:57,315] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:54:57,316] {logging_mixin.py:103} INFO - [2020-12-28 13:54:57,316] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:54:57,333] {logging_mixin.py:103} INFO - [2020-12-28 13:54:57,332] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:54:57,348] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2020-12-28 13:55:23,879] {scheduler_job.py:181} INFO - Started process (PID=15135) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:23,881] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:55:23,882] {logging_mixin.py:103} INFO - [2020-12-28 13:55:23,881] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:23,891] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:23,893] {logging_mixin.py:103} INFO - [2020-12-28 13:55:23,892] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:23,909] {logging_mixin.py:103} INFO - [2020-12-28 13:55:23,909] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:55:23,921] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2020-12-28 13:55:50,443] {scheduler_job.py:181} INFO - Started process (PID=15232) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:50,445] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:55:50,446] {logging_mixin.py:103} INFO - [2020-12-28 13:55:50,445] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:50,456] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:55:50,457] {logging_mixin.py:103} INFO - [2020-12-28 13:55:50,457] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:50,471] {logging_mixin.py:103} INFO - [2020-12-28 13:55:50,470] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:55:50,482] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.041 seconds
+[2020-12-28 13:56:16,159] {scheduler_job.py:181} INFO - Started process (PID=15318) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:16,160] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:56:16,161] {logging_mixin.py:103} INFO - [2020-12-28 13:56:16,161] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:16,171] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:16,173] {logging_mixin.py:103} INFO - [2020-12-28 13:56:16,172] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:16,189] {logging_mixin.py:103} INFO - [2020-12-28 13:56:16,189] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:56:16,202] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2020-12-28 13:56:43,001] {scheduler_job.py:181} INFO - Started process (PID=15427) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:43,003] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:56:43,004] {logging_mixin.py:103} INFO - [2020-12-28 13:56:43,003] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:43,014] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:56:43,015] {logging_mixin.py:103} INFO - [2020-12-28 13:56:43,015] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:43,031] {logging_mixin.py:103} INFO - [2020-12-28 13:56:43,031] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:56:43,044] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 13:57:08,725] {scheduler_job.py:181} INFO - Started process (PID=15552) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:08,727] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:57:08,728] {logging_mixin.py:103} INFO - [2020-12-28 13:57:08,727] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:08,738] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:08,739] {logging_mixin.py:103} INFO - [2020-12-28 13:57:08,739] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:08,757] {logging_mixin.py:103} INFO - [2020-12-28 13:57:08,756] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:57:08,771] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2020-12-28 13:57:35,581] {scheduler_job.py:181} INFO - Started process (PID=15620) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:35,584] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:57:35,585] {logging_mixin.py:103} INFO - [2020-12-28 13:57:35,585] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:35,594] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:57:35,596] {logging_mixin.py:103} INFO - [2020-12-28 13:57:35,595] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:35,612] {logging_mixin.py:103} INFO - [2020-12-28 13:57:35,611] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:57:35,624] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2020-12-28 13:58:01,322] {scheduler_job.py:181} INFO - Started process (PID=15704) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:01,323] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:58:01,324] {logging_mixin.py:103} INFO - [2020-12-28 13:58:01,324] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:01,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:01,335] {logging_mixin.py:103} INFO - [2020-12-28 13:58:01,335] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:01,351] {logging_mixin.py:103} INFO - [2020-12-28 13:58:01,351] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:58:01,364] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2020-12-28 13:58:27,867] {scheduler_job.py:181} INFO - Started process (PID=15804) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:27,868] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:58:27,869] {logging_mixin.py:103} INFO - [2020-12-28 13:58:27,868] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:27,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:27,877] {logging_mixin.py:103} INFO - [2020-12-28 13:58:27,877] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:27,890] {logging_mixin.py:103} INFO - [2020-12-28 13:58:27,890] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:58:27,904] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.040 seconds
+[2020-12-28 13:58:54,990] {scheduler_job.py:181} INFO - Started process (PID=15891) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:54,991] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:58:54,992] {logging_mixin.py:103} INFO - [2020-12-28 13:58:54,992] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:55,000] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:58:55,002] {logging_mixin.py:103} INFO - [2020-12-28 13:58:55,002] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:55,017] {logging_mixin.py:103} INFO - [2020-12-28 13:58:55,016] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:58:55,027] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.040 seconds
+[2020-12-28 13:59:20,735] {scheduler_job.py:181} INFO - Started process (PID=15971) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:20,736] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:59:20,737] {logging_mixin.py:103} INFO - [2020-12-28 13:59:20,737] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:20,746] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:20,747] {logging_mixin.py:103} INFO - [2020-12-28 13:59:20,747] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:20,761] {logging_mixin.py:103} INFO - [2020-12-28 13:59:20,761] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:59:20,773] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.041 seconds
+[2020-12-28 13:59:45,324] {scheduler_job.py:181} INFO - Started process (PID=16057) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:45,326] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 13:59:45,327] {logging_mixin.py:103} INFO - [2020-12-28 13:59:45,327] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:45,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 13:59:45,341] {logging_mixin.py:103} INFO - [2020-12-28 13:59:45,340] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:45,358] {logging_mixin.py:103} INFO - [2020-12-28 13:59:45,358] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 13:59:45,371] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2020-12-28 14:00:11,607] {scheduler_job.py:181} INFO - Started process (PID=16143) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:11,608] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:00:11,609] {logging_mixin.py:103} INFO - [2020-12-28 14:00:11,609] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:11,620] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:11,621] {logging_mixin.py:103} INFO - [2020-12-28 14:00:11,621] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:11,638] {logging_mixin.py:103} INFO - [2020-12-28 14:00:11,637] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:00:11,651] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 14:00:37,869] {scheduler_job.py:181} INFO - Started process (PID=16247) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:37,871] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:00:37,872] {logging_mixin.py:103} INFO - [2020-12-28 14:00:37,871] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:37,882] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:00:37,883] {logging_mixin.py:103} INFO - [2020-12-28 14:00:37,883] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:37,899] {logging_mixin.py:103} INFO - [2020-12-28 14:00:37,898] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:00:37,912] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 14:01:04,197] {scheduler_job.py:181} INFO - Started process (PID=16336) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:04,198] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:01:04,199] {logging_mixin.py:103} INFO - [2020-12-28 14:01:04,199] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:04,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:04,211] {logging_mixin.py:103} INFO - [2020-12-28 14:01:04,211] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:04,227] {logging_mixin.py:103} INFO - [2020-12-28 14:01:04,227] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:01:04,239] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.046 seconds
+[2020-12-28 14:01:29,880] {scheduler_job.py:181} INFO - Started process (PID=16424) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:29,882] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:01:29,883] {logging_mixin.py:103} INFO - [2020-12-28 14:01:29,883] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:29,892] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:29,893] {logging_mixin.py:103} INFO - [2020-12-28 14:01:29,893] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:29,907] {logging_mixin.py:103} INFO - [2020-12-28 14:01:29,907] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:01:29,918] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.040 seconds
+[2020-12-28 14:01:56,751] {scheduler_job.py:181} INFO - Started process (PID=16539) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:56,753] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:01:56,754] {logging_mixin.py:103} INFO - [2020-12-28 14:01:56,753] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:56,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:01:56,767] {logging_mixin.py:103} INFO - [2020-12-28 14:01:56,767] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:56,784] {logging_mixin.py:103} INFO - [2020-12-28 14:01:56,784] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:01:56,796] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.049 seconds
+[2020-12-28 14:02:23,572] {scheduler_job.py:181} INFO - Started process (PID=16704) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:23,577] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:02:23,578] {logging_mixin.py:103} INFO - [2020-12-28 14:02:23,577] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:23,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:23,589] {logging_mixin.py:103} INFO - [2020-12-28 14:02:23,589] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:23,606] {logging_mixin.py:103} INFO - [2020-12-28 14:02:23,606] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:02:23,619] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2020-12-28 14:02:49,288] {scheduler_job.py:181} INFO - Started process (PID=16789) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:49,289] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:02:49,290] {logging_mixin.py:103} INFO - [2020-12-28 14:02:49,290] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:49,300] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:02:49,301] {logging_mixin.py:103} INFO - [2020-12-28 14:02:49,301] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:49,318] {logging_mixin.py:103} INFO - [2020-12-28 14:02:49,318] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:02:49,332] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 14:03:15,594] {scheduler_job.py:181} INFO - Started process (PID=16875) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:15,595] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:03:15,596] {logging_mixin.py:103} INFO - [2020-12-28 14:03:15,596] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:15,607] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:15,608] {logging_mixin.py:103} INFO - [2020-12-28 14:03:15,608] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:15,625] {logging_mixin.py:103} INFO - [2020-12-28 14:03:15,624] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:03:15,638] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 14:03:41,845] {scheduler_job.py:181} INFO - Started process (PID=16963) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:41,846] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:03:41,847] {logging_mixin.py:103} INFO - [2020-12-28 14:03:41,847] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:41,858] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:03:41,859] {logging_mixin.py:103} INFO - [2020-12-28 14:03:41,859] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:41,878] {logging_mixin.py:103} INFO - [2020-12-28 14:03:41,878] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:03:41,892] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.050 seconds
+[2020-12-28 14:04:07,566] {scheduler_job.py:181} INFO - Started process (PID=17068) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:07,567] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:04:07,568] {logging_mixin.py:103} INFO - [2020-12-28 14:04:07,568] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:07,578] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:07,580] {logging_mixin.py:103} INFO - [2020-12-28 14:04:07,579] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:07,596] {logging_mixin.py:103} INFO - [2020-12-28 14:04:07,595] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:04:07,609] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.047 seconds
+[2020-12-28 14:04:35,027] {scheduler_job.py:181} INFO - Started process (PID=17190) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:35,028] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:04:35,029] {logging_mixin.py:103} INFO - [2020-12-28 14:04:35,029] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:35,039] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:04:35,040] {logging_mixin.py:103} INFO - [2020-12-28 14:04:35,040] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:35,052] {logging_mixin.py:103} INFO - [2020-12-28 14:04:35,052] {dag.py:1832} INFO - Creating ORM DAG for latest_only
+[2020-12-28 14:04:35,056] {logging_mixin.py:103} INFO - [2020-12-28 14:04:35,056] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:04:35,076] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.052 seconds
+[2020-12-28 14:05:00,740] {scheduler_job.py:181} INFO - Started process (PID=17302) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:00,741] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:05:00,742] {logging_mixin.py:103} INFO - [2020-12-28 14:05:00,742] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:00,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:00,754] {logging_mixin.py:103} INFO - [2020-12-28 14:05:00,754] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:00,770] {logging_mixin.py:103} INFO - [2020-12-28 14:05:00,770] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:05:00,779] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.043 seconds
+[2020-12-28 14:05:28,740] {scheduler_job.py:181} INFO - Started process (PID=17409) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:28,741] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2020-12-28 14:05:28,743] {logging_mixin.py:103} INFO - [2020-12-28 14:05:28,742] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:28,753] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2020-12-28 14:05:28,754] {logging_mixin.py:103} INFO - [2020-12-28 14:05:28,754] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:28,772] {logging_mixin.py:103} INFO - [2020-12-28 14:05:28,771] {dag.py:2266} INFO - Setting next_dagrun for latest_only to 2020-12-26 00:00:00+00:00
+[2020-12-28 14:05:28,784] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.048 seconds

@@ -1,0 +1,183 @@
+[2020-12-28 13:54:40,946] {scheduler_job.py:181} INFO - Started process (PID=14954) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:54:40,947] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:54:40,949] {logging_mixin.py:103} INFO - [2020-12-28 13:54:40,948] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:54:40,962] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:54:40,964] {logging_mixin.py:103} INFO - [2020-12-28 13:54:40,963] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:54:40,995] {logging_mixin.py:103} INFO - [2020-12-28 13:54:40,994] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:54:41,009] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.066 seconds
+[2020-12-28 13:55:06,462] {scheduler_job.py:181} INFO - Started process (PID=15075) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:06,464] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:55:06,465] {logging_mixin.py:103} INFO - [2020-12-28 13:55:06,464] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:06,480] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:06,482] {logging_mixin.py:103} INFO - [2020-12-28 13:55:06,481] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:06,511] {logging_mixin.py:103} INFO - [2020-12-28 13:55:06,511] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:55:06,522] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2020-12-28 13:55:33,327] {scheduler_job.py:181} INFO - Started process (PID=15168) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:33,328] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:55:33,330] {logging_mixin.py:103} INFO - [2020-12-28 13:55:33,329] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:33,344] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:33,345] {logging_mixin.py:103} INFO - [2020-12-28 13:55:33,345] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:33,375] {logging_mixin.py:103} INFO - [2020-12-28 13:55:33,374] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:55:33,386] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds
+[2020-12-28 13:55:58,983] {scheduler_job.py:181} INFO - Started process (PID=15263) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:58,985] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:55:58,986] {logging_mixin.py:103} INFO - [2020-12-28 13:55:58,986] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:59,001] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:55:59,003] {logging_mixin.py:103} INFO - [2020-12-28 13:55:59,003] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:59,032] {logging_mixin.py:103} INFO - [2020-12-28 13:55:59,032] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:55:59,045] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.065 seconds
+[2020-12-28 13:56:25,568] {scheduler_job.py:181} INFO - Started process (PID=15371) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:25,569] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:56:25,570] {logging_mixin.py:103} INFO - [2020-12-28 13:56:25,570] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:25,586] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:25,587] {logging_mixin.py:103} INFO - [2020-12-28 13:56:25,587] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:25,617] {logging_mixin.py:103} INFO - [2020-12-28 13:56:25,616] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:56:25,629] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.065 seconds
+[2020-12-28 13:56:52,145] {scheduler_job.py:181} INFO - Started process (PID=15456) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:52,147] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:56:52,148] {logging_mixin.py:103} INFO - [2020-12-28 13:56:52,148] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:52,159] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:56:52,160] {logging_mixin.py:103} INFO - [2020-12-28 13:56:52,159] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:52,182] {logging_mixin.py:103} INFO - [2020-12-28 13:56:52,182] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:56:52,192] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.049 seconds
+[2020-12-28 13:57:17,876] {scheduler_job.py:181} INFO - Started process (PID=15580) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:17,877] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:57:17,879] {logging_mixin.py:103} INFO - [2020-12-28 13:57:17,878] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:17,892] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:17,894] {logging_mixin.py:103} INFO - [2020-12-28 13:57:17,894] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:17,924] {logging_mixin.py:103} INFO - [2020-12-28 13:57:17,924] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:57:17,936] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2020-12-28 13:57:44,731] {scheduler_job.py:181} INFO - Started process (PID=15641) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:44,733] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:57:44,735] {logging_mixin.py:103} INFO - [2020-12-28 13:57:44,734] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:44,748] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:57:44,750] {logging_mixin.py:103} INFO - [2020-12-28 13:57:44,749] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:44,780] {logging_mixin.py:103} INFO - [2020-12-28 13:57:44,780] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:57:44,792] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2020-12-28 13:58:10,450] {scheduler_job.py:181} INFO - Started process (PID=15746) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:10,451] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:58:10,453] {logging_mixin.py:103} INFO - [2020-12-28 13:58:10,452] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:10,467] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:10,468] {logging_mixin.py:103} INFO - [2020-12-28 13:58:10,468] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:10,499] {logging_mixin.py:103} INFO - [2020-12-28 13:58:10,499] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:58:10,512] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.066 seconds
+[2020-12-28 13:58:37,333] {scheduler_job.py:181} INFO - Started process (PID=15834) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:37,335] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:58:37,336] {logging_mixin.py:103} INFO - [2020-12-28 13:58:37,336] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:37,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:58:37,352] {logging_mixin.py:103} INFO - [2020-12-28 13:58:37,351] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:37,381] {logging_mixin.py:103} INFO - [2020-12-28 13:58:37,380] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:58:37,393] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2020-12-28 13:59:03,050] {scheduler_job.py:181} INFO - Started process (PID=15920) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:03,051] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:59:03,053] {logging_mixin.py:103} INFO - [2020-12-28 13:59:03,052] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:03,067] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:03,069] {logging_mixin.py:103} INFO - [2020-12-28 13:59:03,068] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:03,098] {logging_mixin.py:103} INFO - [2020-12-28 13:59:03,097] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:59:03,110] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds
+[2020-12-28 13:59:28,763] {scheduler_job.py:181} INFO - Started process (PID=16005) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:28,765] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:59:28,766] {logging_mixin.py:103} INFO - [2020-12-28 13:59:28,766] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:28,780] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:28,782] {logging_mixin.py:103} INFO - [2020-12-28 13:59:28,781] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:28,810] {logging_mixin.py:103} INFO - [2020-12-28 13:59:28,810] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:59:28,823] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds
+[2020-12-28 13:59:54,488] {scheduler_job.py:181} INFO - Started process (PID=16087) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:54,490] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 13:59:54,491] {logging_mixin.py:103} INFO - [2020-12-28 13:59:54,490] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:54,504] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 13:59:54,506] {logging_mixin.py:103} INFO - [2020-12-28 13:59:54,505] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:54,534] {logging_mixin.py:103} INFO - [2020-12-28 13:59:54,534] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 13:59:54,546] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.061 seconds
+[2020-12-28 14:00:21,316] {scheduler_job.py:181} INFO - Started process (PID=16175) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:21,317] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:00:21,318] {logging_mixin.py:103} INFO - [2020-12-28 14:00:21,318] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:21,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:21,334] {logging_mixin.py:103} INFO - [2020-12-28 14:00:21,333] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:21,362] {logging_mixin.py:103} INFO - [2020-12-28 14:00:21,362] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:00:21,374] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.062 seconds
+[2020-12-28 14:00:47,033] {scheduler_job.py:181} INFO - Started process (PID=16279) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:47,036] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:00:47,037] {logging_mixin.py:103} INFO - [2020-12-28 14:00:47,037] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:47,052] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:00:47,053] {logging_mixin.py:103} INFO - [2020-12-28 14:00:47,053] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:47,082] {logging_mixin.py:103} INFO - [2020-12-28 14:00:47,081] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:00:47,093] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds
+[2020-12-28 14:01:13,316] {scheduler_job.py:181} INFO - Started process (PID=16367) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:13,317] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:01:13,318] {logging_mixin.py:103} INFO - [2020-12-28 14:01:13,318] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:13,332] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:13,334] {logging_mixin.py:103} INFO - [2020-12-28 14:01:13,333] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:13,363] {logging_mixin.py:103} INFO - [2020-12-28 14:01:13,363] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:01:13,375] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds
+[2020-12-28 14:01:39,575] {scheduler_job.py:181} INFO - Started process (PID=16455) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:39,577] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:01:39,578] {logging_mixin.py:103} INFO - [2020-12-28 14:01:39,578] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:39,592] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:01:39,593] {logging_mixin.py:103} INFO - [2020-12-28 14:01:39,593] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:39,622] {logging_mixin.py:103} INFO - [2020-12-28 14:01:39,622] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:01:39,634] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.062 seconds
+[2020-12-28 14:02:05,893] {scheduler_job.py:181} INFO - Started process (PID=16596) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:05,896] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:02:05,897] {logging_mixin.py:103} INFO - [2020-12-28 14:02:05,897] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:05,911] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:05,912] {logging_mixin.py:103} INFO - [2020-12-28 14:02:05,912] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:05,943] {logging_mixin.py:103} INFO - [2020-12-28 14:02:05,942] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:02:05,956] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.066 seconds
+[2020-12-28 14:02:31,584] {scheduler_job.py:181} INFO - Started process (PID=16731) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:31,585] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:02:31,586] {logging_mixin.py:103} INFO - [2020-12-28 14:02:31,586] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:31,598] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:31,599] {logging_mixin.py:103} INFO - [2020-12-28 14:02:31,599] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:31,624] {logging_mixin.py:103} INFO - [2020-12-28 14:02:31,624] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:02:31,635] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.054 seconds
+[2020-12-28 14:02:58,167] {scheduler_job.py:181} INFO - Started process (PID=16818) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:58,168] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:02:58,169] {logging_mixin.py:103} INFO - [2020-12-28 14:02:58,169] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:58,183] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:02:58,185] {logging_mixin.py:103} INFO - [2020-12-28 14:02:58,184] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:58,216] {logging_mixin.py:103} INFO - [2020-12-28 14:02:58,215] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:02:58,229] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.066 seconds
+[2020-12-28 14:03:25,282] {scheduler_job.py:181} INFO - Started process (PID=16905) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:25,283] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:03:25,285] {logging_mixin.py:103} INFO - [2020-12-28 14:03:25,284] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:25,298] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:25,300] {logging_mixin.py:103} INFO - [2020-12-28 14:03:25,299] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:25,329] {logging_mixin.py:103} INFO - [2020-12-28 14:03:25,329] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:03:25,341] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.062 seconds
+[2020-12-28 14:03:50,996] {scheduler_job.py:181} INFO - Started process (PID=17005) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:50,996] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:03:50,997] {logging_mixin.py:103} INFO - [2020-12-28 14:03:50,997] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:51,011] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:03:51,012] {logging_mixin.py:103} INFO - [2020-12-28 14:03:51,012] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:51,036] {logging_mixin.py:103} INFO - [2020-12-28 14:03:51,036] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:03:51,045] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.052 seconds
+[2020-12-28 14:04:16,720] {scheduler_job.py:181} INFO - Started process (PID=17108) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:16,721] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:04:16,722] {logging_mixin.py:103} INFO - [2020-12-28 14:04:16,722] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:16,735] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:16,737] {logging_mixin.py:103} INFO - [2020-12-28 14:04:16,736] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:16,767] {logging_mixin.py:103} INFO - [2020-12-28 14:04:16,767] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:04:16,780] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2020-12-28 14:04:43,574] {scheduler_job.py:181} INFO - Started process (PID=17231) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:43,575] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:04:43,576] {logging_mixin.py:103} INFO - [2020-12-28 14:04:43,576] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:43,589] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:04:43,590] {logging_mixin.py:103} INFO - [2020-12-28 14:04:43,590] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:43,603] {logging_mixin.py:103} INFO - [2020-12-28 14:04:43,603] {dag.py:1832} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2020-12-28 14:04:43,620] {logging_mixin.py:103} INFO - [2020-12-28 14:04:43,620] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:04:43,640] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.070 seconds
+[2020-12-28 14:05:10,427] {scheduler_job.py:181} INFO - Started process (PID=17333) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:10,429] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:05:10,430] {logging_mixin.py:103} INFO - [2020-12-28 14:05:10,429] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:10,443] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:10,444] {logging_mixin.py:103} INFO - [2020-12-28 14:05:10,444] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:10,475] {logging_mixin.py:103} INFO - [2020-12-28 14:05:10,475] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:05:10,483] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.059 seconds
+[2020-12-28 14:05:37,903] {scheduler_job.py:181} INFO - Started process (PID=17449) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:37,905] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2020-12-28 14:05:37,906] {logging_mixin.py:103} INFO - [2020-12-28 14:05:37,906] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:37,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2020-12-28 14:05:37,922] {logging_mixin.py:103} INFO - [2020-12-28 14:05:37,921] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:37,951] {logging_mixin.py:103} INFO - [2020-12-28 14:05:37,950] {dag.py:2266} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2020-12-27 00:00:00+00:00
+[2020-12-28 14:05:37,963] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.063 seconds

@@ -1,9 +1,2 @@
-data/
-__pycache__/
-config.py
-std.out
-err.err
-analysisNotebook.ipynb
-deprecatedFunctions.py
-dota2demo.py
-slack.py
+deprecated/
+.env

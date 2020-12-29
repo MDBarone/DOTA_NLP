@@ -1,0 +1,14 @@
+1608998228618	geckodriver	INFO	Listening on 127.0.0.1:65343
+1608998229627	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/j9/3jhxt1k54fzgbz_7_48wh6qw0000gn/T/rust_mozprofileoRuqBu"
+1608998230375	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1608998230706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1608998230706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1608998230706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1608998230706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1608998232807	Marionette	INFO	Listening on port 65350
+1608998232889	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://laz-g-cdn.alicdn.com/lzdmod/im/5.0.85/index.js, line 1: SyntaxError: invalid regexp group
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.9.1/index.js, line 1: WebGL context was lost.
+JavaScript warning: https://assets.alicdn.com/g??xlly/spl/rp.js,secdev/nsv/1.0.78/ns_e_88_3_n.js, line 5: WebGL context was lost.
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+1609091595622	Marionette	INFO	Stopped listening on port 65350

@@ -1,0 +1,248 @@
+[2020-12-28 13:54:55,038] {scheduler_job.py:181} INFO - Started process (PID=15029) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:54:55,039] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:54:55,040] {logging_mixin.py:103} INFO - [2020-12-28 13:54:55,040] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:54:55,058] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:54:55,060] {logging_mixin.py:103} INFO - [2020-12-28 13:54:55,060] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:54:55,077] {logging_mixin.py:103} INFO - [2020-12-28 13:54:55,077] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:54:55,105] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.071 seconds
+[2020-12-28 13:55:21,897] {scheduler_job.py:181} INFO - Started process (PID=15128) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:21,899] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:55:21,900] {logging_mixin.py:103} INFO - [2020-12-28 13:55:21,900] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:21,916] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:21,917] {logging_mixin.py:103} INFO - [2020-12-28 13:55:21,917] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:21,934] {logging_mixin.py:103} INFO - [2020-12-28 13:55:21,933] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:55:21,944] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2020-12-28 13:55:48,699] {scheduler_job.py:181} INFO - Started process (PID=15226) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:48,700] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:55:48,701] {logging_mixin.py:103} INFO - [2020-12-28 13:55:48,701] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:48,715] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:55:48,716] {logging_mixin.py:103} INFO - [2020-12-28 13:55:48,716] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:55:48,733] {logging_mixin.py:103} INFO - [2020-12-28 13:55:48,733] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:55:48,751] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2020-12-28 13:56:14,424] {scheduler_job.py:181} INFO - Started process (PID=15312) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:14,425] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:56:14,426] {logging_mixin.py:103} INFO - [2020-12-28 13:56:14,426] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:14,441] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:14,443] {logging_mixin.py:103} INFO - [2020-12-28 13:56:14,442] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:14,460] {logging_mixin.py:103} INFO - [2020-12-28 13:56:14,460] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:56:14,476] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2020-12-28 13:56:40,719] {scheduler_job.py:181} INFO - Started process (PID=15420) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:40,720] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:56:40,722] {logging_mixin.py:103} INFO - [2020-12-28 13:56:40,721] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:40,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:56:40,738] {logging_mixin.py:103} INFO - [2020-12-28 13:56:40,738] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:56:40,754] {logging_mixin.py:103} INFO - [2020-12-28 13:56:40,754] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:56:40,772] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.057 seconds
+[2020-12-28 13:57:06,980] {scheduler_job.py:181} INFO - Started process (PID=15535) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:06,981] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:57:06,982] {logging_mixin.py:103} INFO - [2020-12-28 13:57:06,982] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:06,998] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:06,999] {logging_mixin.py:103} INFO - [2020-12-28 13:57:06,999] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:07,016] {logging_mixin.py:103} INFO - [2020-12-28 13:57:07,015] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:57:07,032] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2020-12-28 13:57:33,307] {scheduler_job.py:181} INFO - Started process (PID=15616) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:33,310] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:57:33,333] {logging_mixin.py:103} INFO - [2020-12-28 13:57:33,333] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:33,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:33,358] {logging_mixin.py:103} INFO - [2020-12-28 13:57:33,357] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:33,374] {logging_mixin.py:103} INFO - [2020-12-28 13:57:33,374] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:57:33,391] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.088 seconds
+[2020-12-28 13:57:59,047] {scheduler_job.py:181} INFO - Started process (PID=15692) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:59,048] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:57:59,049] {logging_mixin.py:103} INFO - [2020-12-28 13:57:59,048] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:59,064] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:57:59,066] {logging_mixin.py:103} INFO - [2020-12-28 13:57:59,065] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:57:59,081] {logging_mixin.py:103} INFO - [2020-12-28 13:57:59,081] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:57:59,098] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2020-12-28 13:58:25,603] {scheduler_job.py:181} INFO - Started process (PID=15797) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:25,605] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:58:25,606] {logging_mixin.py:103} INFO - [2020-12-28 13:58:25,606] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:25,623] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:25,624] {logging_mixin.py:103} INFO - [2020-12-28 13:58:25,624] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:25,641] {logging_mixin.py:103} INFO - [2020-12-28 13:58:25,641] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:58:25,658] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2020-12-28 13:58:52,728] {scheduler_job.py:181} INFO - Started process (PID=15883) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:52,729] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:58:52,730] {logging_mixin.py:103} INFO - [2020-12-28 13:58:52,730] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:52,745] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:58:52,747] {logging_mixin.py:103} INFO - [2020-12-28 13:58:52,746] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:58:52,763] {logging_mixin.py:103} INFO - [2020-12-28 13:58:52,763] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:58:52,800] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.076 seconds
+[2020-12-28 13:59:18,473] {scheduler_job.py:181} INFO - Started process (PID=15966) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:18,475] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:59:18,476] {logging_mixin.py:103} INFO - [2020-12-28 13:59:18,476] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:18,492] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:18,494] {logging_mixin.py:103} INFO - [2020-12-28 13:59:18,493] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:18,510] {logging_mixin.py:103} INFO - [2020-12-28 13:59:18,510] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:59:18,528] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2020-12-28 13:59:43,062] {scheduler_job.py:181} INFO - Started process (PID=16051) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:43,064] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 13:59:43,065] {logging_mixin.py:103} INFO - [2020-12-28 13:59:43,065] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:43,081] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 13:59:43,082] {logging_mixin.py:103} INFO - [2020-12-28 13:59:43,082] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 13:59:43,098] {logging_mixin.py:103} INFO - [2020-12-28 13:59:43,097] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 13:59:43,115] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2020-12-28 14:00:09,916] {scheduler_job.py:181} INFO - Started process (PID=16138) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:09,917] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:00:09,919] {logging_mixin.py:103} INFO - [2020-12-28 14:00:09,918] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:09,934] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:09,936] {logging_mixin.py:103} INFO - [2020-12-28 14:00:09,935] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:09,952] {logging_mixin.py:103} INFO - [2020-12-28 14:00:09,952] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:00:09,969] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.057 seconds
+[2020-12-28 14:00:35,601] {scheduler_job.py:181} INFO - Started process (PID=16241) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:35,602] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:00:35,603] {logging_mixin.py:103} INFO - [2020-12-28 14:00:35,603] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:35,617] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:00:35,619] {logging_mixin.py:103} INFO - [2020-12-28 14:00:35,618] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:00:35,633] {logging_mixin.py:103} INFO - [2020-12-28 14:00:35,633] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:00:35,649] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.051 seconds
+[2020-12-28 14:01:02,458] {scheduler_job.py:181} INFO - Started process (PID=16331) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:02,459] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:01:02,460] {logging_mixin.py:103} INFO - [2020-12-28 14:01:02,460] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:02,476] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:02,478] {logging_mixin.py:103} INFO - [2020-12-28 14:01:02,478] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:02,494] {logging_mixin.py:103} INFO - [2020-12-28 14:01:02,494] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:01:02,512] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2020-12-28 14:01:28,451] {scheduler_job.py:181} INFO - Started process (PID=16418) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:28,452] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:01:28,453] {logging_mixin.py:103} INFO - [2020-12-28 14:01:28,453] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:28,468] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:28,469] {logging_mixin.py:103} INFO - [2020-12-28 14:01:28,469] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:28,484] {logging_mixin.py:103} INFO - [2020-12-28 14:01:28,483] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:01:28,499] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.052 seconds
+[2020-12-28 14:01:55,002] {scheduler_job.py:181} INFO - Started process (PID=16531) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:55,004] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:01:55,005] {logging_mixin.py:103} INFO - [2020-12-28 14:01:55,005] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:55,023] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:01:55,024] {logging_mixin.py:103} INFO - [2020-12-28 14:01:55,024] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:01:55,040] {logging_mixin.py:103} INFO - [2020-12-28 14:01:55,040] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:01:55,058] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2020-12-28 14:02:21,298] {scheduler_job.py:181} INFO - Started process (PID=16700) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:21,301] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:02:21,303] {logging_mixin.py:103} INFO - [2020-12-28 14:02:21,302] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:21,320] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:21,321] {logging_mixin.py:103} INFO - [2020-12-28 14:02:21,321] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:21,338] {logging_mixin.py:103} INFO - [2020-12-28 14:02:21,337] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:02:21,355] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.060 seconds
+[2020-12-28 14:02:47,015] {scheduler_job.py:181} INFO - Started process (PID=16781) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:47,016] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:02:47,017] {logging_mixin.py:103} INFO - [2020-12-28 14:02:47,017] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:47,033] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:02:47,035] {logging_mixin.py:103} INFO - [2020-12-28 14:02:47,034] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:02:47,051] {logging_mixin.py:103} INFO - [2020-12-28 14:02:47,051] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:02:47,069] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2020-12-28 14:03:13,304] {scheduler_job.py:181} INFO - Started process (PID=16869) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:13,306] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:03:13,307] {logging_mixin.py:103} INFO - [2020-12-28 14:03:13,306] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:13,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:13,324] {logging_mixin.py:103} INFO - [2020-12-28 14:03:13,324] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:13,341] {logging_mixin.py:103} INFO - [2020-12-28 14:03:13,340] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:03:13,358] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.058 seconds
+[2020-12-28 14:03:39,576] {scheduler_job.py:181} INFO - Started process (PID=16957) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:39,578] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:03:39,579] {logging_mixin.py:103} INFO - [2020-12-28 14:03:39,578] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:39,594] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:03:39,596] {logging_mixin.py:103} INFO - [2020-12-28 14:03:39,595] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:03:39,611] {logging_mixin.py:103} INFO - [2020-12-28 14:03:39,611] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:03:39,628] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.055 seconds
+[2020-12-28 14:04:05,300] {scheduler_job.py:181} INFO - Started process (PID=17062) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:05,301] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:04:05,303] {logging_mixin.py:103} INFO - [2020-12-28 14:04:05,302] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:05,319] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:05,320] {logging_mixin.py:103} INFO - [2020-12-28 14:04:05,320] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:05,336] {logging_mixin.py:103} INFO - [2020-12-28 14:04:05,336] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:04:05,353] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.056 seconds
+[2020-12-28 14:04:33,299] {scheduler_job.py:181} INFO - Started process (PID=17183) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:33,300] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:04:33,301] {logging_mixin.py:103} INFO - [2020-12-28 14:04:33,301] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:33,317] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:33,318] {logging_mixin.py:103} INFO - [2020-12-28 14:04:33,318] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:33,331] {logging_mixin.py:103} INFO - [2020-12-28 14:04:33,330] {dag.py:1832} INFO - Creating ORM DAG for example_complex
+[2020-12-28 14:04:33,335] {logging_mixin.py:103} INFO - [2020-12-28 14:04:33,335] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:04:33,361] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.066 seconds
+[2020-12-28 14:04:59,014] {scheduler_job.py:181} INFO - Started process (PID=17294) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:59,016] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:04:59,017] {logging_mixin.py:103} INFO - [2020-12-28 14:04:59,016] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:59,032] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:04:59,034] {logging_mixin.py:103} INFO - [2020-12-28 14:04:59,033] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:04:59,049] {logging_mixin.py:103} INFO - [2020-12-28 14:04:59,049] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:04:59,059] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.048 seconds
+[2020-12-28 14:05:25,857] {scheduler_job.py:181} INFO - Started process (PID=17398) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:25,859] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:05:25,860] {logging_mixin.py:103} INFO - [2020-12-28 14:05:25,859] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:25,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:25,877] {logging_mixin.py:103} INFO - [2020-12-28 14:05:25,877] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:25,893] {logging_mixin.py:103} INFO - [2020-12-28 14:05:25,893] {dag.py:2266} INFO - Setting next_dagrun for example_complex to None
+[2020-12-28 14:05:25,911] {scheduler_job.py:189} INFO - Processing /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py took 0.057 seconds
+[2020-12-28 14:05:53,270] {scheduler_job.py:181} INFO - Started process (PID=17504) to work on /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:53,271] {scheduler_job.py:629} INFO - Processing file /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2020-12-28 14:05:53,272] {logging_mixin.py:103} INFO - [2020-12-28 14:05:53,272] {dagbag.py:440} INFO - Filling up the DagBag from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:53,285] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /opt/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_complex.py
+[2020-12-28 14:05:53,286] {logging_mixin.py:103} INFO - [2020-12-28 14:05:53,286] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:53,327] {logging_mixin.py:103} INFO - [2020-12-28 14:05:53,327] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:54,038] {logging_mixin.py:103} INFO - [2020-12-28 14:05:54,037] {dag.py:1813} INFO - Sync 1 DAGs
+[2020-12-28 14:05:54,054] {scheduler_job.py:192} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: dag_tag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 186, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 648, in process_file
+    dagbag.sync_to_db()
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dagbag.py", line 549, in sync_to_db
+    reraise=True,
+  File "/opt/anaconda3/lib/python3.7/site-packages/tenacity/__init__.py", line 390, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/opt/anaconda3/lib/python3.7/site-packages/tenacity/__init__.py", line 368, in iter
+    raise retry_exc.reraise()
+  File "/opt/anaconda3/lib/python3.7/site-packages/tenacity/__init__.py", line 186, in reraise
+    raise self.last_attempt.result()
+  File "/opt/anaconda3/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/opt/anaconda3/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dagbag.py", line 560, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/utils/session.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dag.py", line 1821, in bulk_write_to_db
+    orm_dags = with_row_locks(query, of=DagModel).all()
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dag_tag
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_scheduler_run AS dag_last_scheduler_run, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.concurrency AS dag_concurrency, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_create_after AS dag_next_dagrun_create_after, dag_tag_1.name AS dag_tag_1_name, dag_tag_1.dag_id AS dag_tag_1_dag_id 
+FROM dag LEFT OUTER JOIN dag_tag AS dag_tag_1 ON dag.dag_id = dag_tag_1.dag_id 
+WHERE dag.dag_id IN (?)]
+[parameters: ('example_complex',)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

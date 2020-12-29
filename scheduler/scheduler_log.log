@@ -1,0 +1,62 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2020-12-28 13:54:38,582] {scheduler_job.py:1241} INFO - Starting the scheduler
+[2020-12-28 13:54:38,582] {scheduler_job.py:1246} INFO - Processing each file at most -1 times
+[2020-12-28 13:54:38,586] {dag_processing.py:250} INFO - Launched DagFileProcessorManager with pid: 14945
+[2020-12-28 13:54:38,587] {scheduler_job.py:1751} INFO - Resetting orphaned tasks for active dag runs
+[2020-12-28 13:54:38,592] {settings.py:52} INFO - Configured default timezone Timezone('UTC')
+[2020-12-28 13:54:38,606] {dag_processing.py:518} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2 ) when using sqlite. So we set parallelism to 1.
+[2020-12-28 13:59:38,769] {scheduler_job.py:1751} INFO - Resetting orphaned tasks for active dag runs
+[2020-12-28 14:04:38,914] {scheduler_job.py:1751} INFO - Resetting orphaned tasks for active dag runs
+[2020-12-28 14:05:54,207] {scheduler_job.py:1293} ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: dag.concurrency
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 1275, in _execute
+    self._run_scheduler_loop()
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 1377, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/jobs/scheduler_job.py", line 1474, in _do_scheduling
+    self._create_dag_runs(query.all(), session)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/opt/anaconda3/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 609, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: dag.concurrency
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_scheduler_run AS dag_last_scheduler_run, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.concurrency AS dag_concurrency, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_create_after AS dag_next_dagrun_create_after 
+FROM dag 
+WHERE dag.is_paused IS 0 AND dag.is_active IS 1 AND dag.next_dagrun_create_after <= CURRENT_TIMESTAMP ORDER BY dag.next_dagrun_create_after
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2020-12-28 14:05:55,218] {process_utils.py:95} INFO - Sending Signals.SIGTERM to GPID 14945
+[2020-12-28 14:05:55,314] {process_utils.py:61} INFO - Process psutil.Process(pid=14945, status='terminated') (14945) terminated with exit code 0
+[2020-12-28 14:05:55,315] {scheduler_job.py:1296} INFO - Exited execute loop

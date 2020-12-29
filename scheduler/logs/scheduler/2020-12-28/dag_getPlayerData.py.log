@@ -1,0 +1,48 @@
+[2020-12-28 14:04:53,830] {scheduler_job.py:181} INFO - Started process (PID=17266) to work on /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:04:53,831] {scheduler_job.py:629} INFO - Processing file /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py for tasks to queue
+[2020-12-28 14:04:53,832] {logging_mixin.py:103} INFO - [2020-12-28 14:04:53,832] {dagbag.py:440} INFO - Filling up the DagBag from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:04:53,841] {logging_mixin.py:103} INFO - [2020-12-28 14:04:53,840] {dagbag.py:297} ERROR - Failed to import: /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py", line 7, in <module>
+    from scrapers.getPlayerData import getPlayerData, respond
+ModuleNotFoundError: No module named 'scrapers'
+[2020-12-28 14:04:53,842] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:04:53,852] {scheduler_job.py:189} INFO - Processing /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py took 0.025 seconds
+[2020-12-28 14:05:20,719] {scheduler_job.py:181} INFO - Started process (PID=17377) to work on /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:20,721] {scheduler_job.py:629} INFO - Processing file /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py for tasks to queue
+[2020-12-28 14:05:20,722] {logging_mixin.py:103} INFO - [2020-12-28 14:05:20,721] {dagbag.py:440} INFO - Filling up the DagBag from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:20,724] {logging_mixin.py:103} INFO - [2020-12-28 14:05:20,723] {dagbag.py:297} ERROR - Failed to import: /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py", line 7
+    from ../scrapers.getPlayerData import getPlayerData, respond
+           ^
+SyntaxError: invalid syntax
+[2020-12-28 14:05:20,725] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:20,736] {scheduler_job.py:189} INFO - Processing /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py took 0.020 seconds
+[2020-12-28 14:05:48,137] {scheduler_job.py:181} INFO - Started process (PID=17482) to work on /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:48,138] {scheduler_job.py:629} INFO - Processing file /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py for tasks to queue
+[2020-12-28 14:05:48,139] {logging_mixin.py:103} INFO - [2020-12-28 14:05:48,139] {dagbag.py:440} INFO - Filling up the DagBag from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:48,142] {logging_mixin.py:103} INFO - [2020-12-28 14:05:48,141] {dagbag.py:297} ERROR - Failed to import: /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/airflow/models/dagbag.py", line 294, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py", line 7
+    from ../scrapers.getPlayerData import getPlayerData, respond
+           ^
+SyntaxError: invalid syntax
+[2020-12-28 14:05:48,142] {scheduler_job.py:641} WARNING - No viable dags retrieved from /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py
+[2020-12-28 14:05:48,154] {scheduler_job.py:189} INFO - Processing /Users/saradit/DOTA_NLP/scheduler/dags/dag_getPlayerData.py took 0.021 seconds
